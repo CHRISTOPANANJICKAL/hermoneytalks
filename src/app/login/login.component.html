@@ -1,0 +1,10 @@
+<div class="main-div">
+    <section class="main-container">
+        <h3>Login</h3>
+        <form [formGroup]="loginForm" class="main-form" (ngSubmit)='save()'>
+            <input formControlName="username" type="text" placeholder="Name"><br>
+            <input formControlName="password" type="password" placeholder="Password"><br>
+            <input type="submit">
+        </form>
+    </section>
+</div>

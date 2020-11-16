@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "hermoneytalks"
+  "defaultProject": "hermoneytalks",
+  "cli": {
+    "analytics": "c40841c2-e46e-4892-bfa6-0f13ea620083"
+  }
 }
